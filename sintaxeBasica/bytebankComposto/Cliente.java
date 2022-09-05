@@ -1,4 +1,4 @@
-package bytebankEncapsulado;
+package sintaxeBasica.bytebankComposto;
 
 public class Cliente {
 

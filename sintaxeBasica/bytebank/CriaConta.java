@@ -1,4 +1,4 @@
-package bytebank;
+package sintaxeBasica.bytebank;
 
 public class CriaConta {
 

@@ -1,4 +1,4 @@
-package bytebankComposto;
+package sintaxeBasica.bytebankComposto;
 
 public class Conta {
 
