@@ -12,7 +12,7 @@ public class TestaMetodo {
         Conta outraConta = new Conta();
         outraConta.deposita(1500);
 
-        outraConta.transfere(200, minhaConta)
+        outraConta.transfere(200, minhaConta);
     }
 
 }
