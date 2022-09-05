@@ -4,9 +4,9 @@ public class TestaPontoFlutuante {
 
     public static void main(String[] args) {
 
-        double salario;
-        salario = 1250.70;
-        System.out.println(salario);
+        double salario = 1250.70;
+        int valor = (int) salario; //type casting
+        System.out.println(valor);
 
     }
 
