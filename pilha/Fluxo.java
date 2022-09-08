@@ -15,12 +15,12 @@ public class Fluxo {
         System.out.println("Fim do main");
     }
 
-    public static void metodo1() {
+    public static void metodo1() throws MinhaExcecao{
         System.out.println("Início do metodo1");
         metodo2(); //quebra no throw e sai do método 1
         System.out.println("Fim do metodo1");
     }
-    public static void metodo2() {
+    public static void metodo2() throws MinhaExcecao{
         System.out.println("Início do metodo2");
         throw new MinhaExcecao("deu muito errado"); //sai do método 2 && throw só funciona com exceções
         //System.out.println("Fim do metodo 2");

@@ -20,13 +20,12 @@ public class FluxoComTratamento {
         metodo2();
         System.out.println("Fim do metodo1");
     }
-    public static void metodo2() {
+    public static void metodo2 () {
         System.out.println("Início do metodo2");
         for(int i = 1; i <= 5; i++) {
             System.out.println(i);
                 //int a = i/0;
             Conta c = null;
-            c.deposita();
         }
         System.out.println("Fim do metodo 2");
     }
