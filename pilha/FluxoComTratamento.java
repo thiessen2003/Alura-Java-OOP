@@ -1,6 +1,6 @@
 package pilha;
 
-public class Fluxo {
+public class FluxoComTratamento {
 
     //o Stack do Java sempre começa pelo método main
     public static void main(String[] args) {
@@ -17,13 +17,18 @@ public class Fluxo {
 
     public static void metodo1() {
         System.out.println("Início do metodo1");
-        metodo2(); //quebra no throw e sai do método 1
+        metodo2();
         System.out.println("Fim do metodo1");
     }
     public static void metodo2() {
         System.out.println("Início do metodo2");
-        throw new ArithmeticException("deu errado"); //sai do método 2 && throw só funciona com exceções
-        //System.out.println("Fim do metodo 2");
+        for(int i = 1; i <= 5; i++) {
+            System.out.println(i);
+                //int a = i/0;
+            Conta c = null;
+            c.deposita();
+        }
+        System.out.println("Fim do metodo 2");
     }
 
 
