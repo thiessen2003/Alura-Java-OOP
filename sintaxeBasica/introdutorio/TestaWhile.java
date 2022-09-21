@@ -1,4 +1,4 @@
-package sintaxeBasica;
+package sintaxeBasica.introdutorio;
 
 public class TestaWhile {
 
