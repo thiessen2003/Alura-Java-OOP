@@ -1,6 +1,6 @@
 package bytebankConta.teste;
 
-public class Teste {
+public class TesteArrayPrimitivos {
 
     public static void main(String[] args) {
 
