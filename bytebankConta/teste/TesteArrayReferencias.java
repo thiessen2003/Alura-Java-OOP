@@ -8,6 +8,8 @@ public class TesteArrayReferencias {
     public static void main(String[] args) {
         ContaCorrente[] contas = new ContaCorrente[5];
 
+        Conta[] contas2 = new Conta[2];
+
         ContaCorrente cc1 = new ContaCorrente(22, 11);
         ContaCorrente cc2 = new ContaCorrente(53, 12);
 
