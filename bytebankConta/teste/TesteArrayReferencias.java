@@ -2,6 +2,7 @@ package bytebankConta.teste;
 
 import bytebankConta.modelo.Conta;
 import bytebankConta.modelo.ContaCorrente;
+import bytebankConta.teste.TesteContas;
 
 public class TesteArrayReferencias {
 
